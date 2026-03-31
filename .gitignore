@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build / compile output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Bun
+.bun/
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE (optional local settings)
+.idea/
+*.swp
+*.swo
+*~
+
+# Debug
+*.pem
