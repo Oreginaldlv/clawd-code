@@ -50,6 +50,22 @@ The tree contains a mirrored **`src/`** snapshot preserved for research and anal
 
 ---
 
+## Documentation (VitePress)
+
+Navigable documentation for the `src/` tree lives under [`docs/`](docs/). It mirrors and expands this README into a sidebar (guide, architecture, reference) and includes a generated index of top-level `src/` entries.
+
+From the repository root:
+
+```bash
+npm install
+npm run docs:dev       # local dev server
+npm run docs:gen       # regenerate docs/reference/src-index.md
+npm run docs:build     # production build (runs docs:gen first; output in docs/.vitepress/dist)
+npm run docs:preview   # preview the production build
+```
+
+---
+
 ## Takedown and contact
 
 If you are a rights holder or authorized representative and believe material in this repository infringes your rights or violates applicable law, **contact the maintainer** by opening a **GitHub Issue** on this repository (or use any contact method the maintainer publishes on their GitHub profile).

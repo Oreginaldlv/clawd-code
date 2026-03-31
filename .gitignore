@@ -39,3 +39,8 @@ Thumbs.db
 
 # Debug
 *.pem
+
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+package-lock.json
